@@ -1,8 +1,8 @@
 import { Helmet } from "react-helmet";
 
 const PageTitle = ({ title = null }) => {
-  const pageSuffix = "| TaxDown";
-  const pageSuffixSection = "Tu declaración de la renta online, bien hecha";
+  const pageSuffix = "| Beeter";
+  const pageSuffixSection = "Colabora y crea un mejor lugar";
 
   return (
     <Helmet>

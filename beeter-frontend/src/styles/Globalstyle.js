@@ -53,11 +53,11 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     background-color: ${({ theme }) => theme.body};
-    color: ${({ theme }) => theme.text};
     font-family: "Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";    
     transition-property: background-color, color;
     transition-duration: 300ms;
     line-height: 1.5;
+    font-size: 14px;
   }
 
   h1{
@@ -96,11 +96,14 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     margin: 0;
     cursor: pointer;
+    appearance: none;
   }
 
   a {
     text-decoration: none;
     color: inherit;
+    font-weight: 500;
+    display: inline-block;
   }
 
   `;

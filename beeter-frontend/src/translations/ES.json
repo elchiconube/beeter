@@ -1,0 +1,25 @@
+{
+  "auth": {
+    "sign-in": {
+      "alternative": "No tienes cuenta? {link}",
+      "alternative-link": "Regístrate ahora",
+      "title": "Iniciar sesión en Beeter"
+    },
+    "sign-up": {
+      "alternative": "Ya estás registrado? {link}",
+      "alternative-link": "Inicia sesión",
+      "title": "Registrarse en Beeter"
+    }
+  },
+  "global": {
+    "back": "atrás",
+    "or": "o"
+  },
+  "paths": {
+    "about": "Acerca de",
+    "home": "Inicio",
+    "ideas": "Ideas",
+    "sign-in": "Iniciar sesión",
+    "sign-up": "Registro"
+  }
+}

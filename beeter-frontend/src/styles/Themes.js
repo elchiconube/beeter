@@ -18,8 +18,8 @@ const spacings = {
 };
 
 const commonTheme = {
-  primaryColor: "#00dc5a",
-  secondaryColor: "#00b67a",
+  primaryColor: "#F0A723",
+  secondaryColor: "#917E8A",
   ...spacings,
 };
 

@@ -1,16 +1,18 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const StyledButton = styled.button`
   background-color: ${({ theme }) => theme.primaryColor};
   border: 0;
-  padding: 9px 24px;
+  padding: 10px 24px;
   border-radius: 5px;
   overflow: hidden;
   color: white;
-  font-weight: 700;
+  font-weight: 500;
   transition: all 300ms ease-in-out;
   display: inline-flex;
   align-items: center;
+  display: inline-block;
+
   &:hover {
     background-color: ${({ theme }) => theme.secondaryColor};
   }
@@ -29,7 +31,7 @@ const StyledButton = styled.button`
 `;
 
 const Button = ({ children, loading, ...props }) => (
-  <StyledButton {...props}>{loading ? 'loading' : children}</StyledButton>
+  <StyledButton {...props}>{loading ? "loading" : children}</StyledButton>
 );
 
 export default Button;

@@ -1,0 +1,25 @@
+{
+  "auth": {
+    "sign-in": {
+      "alternative": "Not a member? {link}",
+      "alternative-link": "Sign up now",
+      "title": "Sign in to Beeter"
+    },
+    "sign-up": {
+      "alternative": "Already a member? {link}",
+      "alternative-link": "Sign in",
+      "title": "Sign up to Beeter"
+    }
+  },
+  "global": {
+    "back": "back",
+    "or": "or"
+  },
+  "paths": {
+    "about": "About",
+    "home": "Home",
+    "ideas": "Ideas",
+    "sign-in": "Sign in",
+    "sign-up": "Sign up"
+  }
+}

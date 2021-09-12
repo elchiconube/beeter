@@ -3,6 +3,8 @@ import { ThemeProvider } from "styled-components";
 import { Router } from "react-router-dom";
 import { createBrowserHistory } from "history";
 import { useDispatch, useSelector } from "react-redux";
+import { IntlProvider } from "react-intl";
+import { flattenMessages, locale, translations } from "./translations";
 import { GlobalStyles } from "./styles/Globalstyle";
 import { lightTheme, darkTheme } from "./styles/Themes";
 import { initApplication } from "./actions/app";
@@ -13,6 +15,7 @@ export const history = createBrowserHistory();
 
 const App = () => {
   const dispatch = useDispatch();
+  const language = useSelector((state) => state.user.language) || locale;
   const appTheme = useSelector((state) => state.app.theme);
   const themeMode = appTheme === "light" ? lightTheme : darkTheme;
 
@@ -28,10 +31,16 @@ const App = () => {
   );
 
   return (
-    <ThemeProvider theme={themeMode}>
-      <GlobalStyles />
-      {routes}
-    </ThemeProvider>
+    <IntlProvider
+      locale={language}
+      key={language}
+      messages={flattenMessages(translations[language])}
+    >
+      <ThemeProvider theme={themeMode}>
+        <GlobalStyles />
+        {routes}
+      </ThemeProvider>
+    </IntlProvider>
   );
 };
 
