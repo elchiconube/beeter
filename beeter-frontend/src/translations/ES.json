@@ -3,11 +3,13 @@
     "sign-in": {
       "alternative": "No tienes cuenta? {link}",
       "alternative-link": "Regístrate ahora",
+      "seo-title": "Bienvenido a Beeter! Inicia sesión y comparte tus ideas",
       "title": "Iniciar sesión en Beeter"
     },
     "sign-up": {
       "alternative": "Ya estás registrado? {link}",
       "alternative-link": "Inicia sesión",
+      "seo-title": "Bienvenido a Beeter! Regístrate y comparte tus ideas",
       "title": "Registrarse en Beeter"
     }
   },

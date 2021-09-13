@@ -3,11 +3,13 @@
     "sign-in": {
       "alternative": "Not a member? {link}",
       "alternative-link": "Sign up now",
+      "seo-title": "Welcome to Beeter! Sign in and start sharing your ideas",
       "title": "Sign in to Beeter"
     },
     "sign-up": {
       "alternative": "Already a member? {link}",
       "alternative-link": "Sign in",
+      "seo-title": "Welcome to Beeter! Sign up and start sharing your ideas",
       "title": "Sign up to Beeter"
     }
   },

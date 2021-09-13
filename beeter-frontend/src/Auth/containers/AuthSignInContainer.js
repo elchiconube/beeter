@@ -1,4 +1,4 @@
-import { FormattedMessage } from "react-intl";
+import { FormattedMessage, useIntl } from "react-intl";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import PATHS from "../../routes/paths";
@@ -10,6 +10,7 @@ const StyledAside = styled.aside`
 `;
 
 const AuthSignInContainer = () => {
+  const intl = useIntl();
   return (
     <div>
       <StyledAside>
@@ -17,7 +18,12 @@ const AuthSignInContainer = () => {
           id="auth.sign-in.alternative"
           values={{
             link: (
-              <Link to={PATHS.signUp}>
+              <Link
+                to={PATHS.signUp}
+                title={intl.formatMessage({
+                  id: "auth.sign-in.alternative-link",
+                })}
+              >
                 <FormattedMessage id="auth.sign-in.alternative-link" />
               </Link>
             ),
