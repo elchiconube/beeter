@@ -21,8 +21,9 @@ const StyledContainer = styled.div`
 
 const StyledWrapper = styled.div`
   padding: 24px;
-  height: 90%;
+  height: auto;
   width: 50%;
+  max-width: 400px;
 `;
 
 const AuthLayout = ({ children }) => {

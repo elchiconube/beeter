@@ -3,7 +3,7 @@ import styled from "styled-components";
 const StyledButton = styled.button`
   background-color: ${({ theme }) => theme.primaryColor};
   border: 0;
-  padding: 10px 24px;
+  padding: 16px 32px;
   border-radius: 5px;
   overflow: hidden;
   color: white;
@@ -12,6 +12,7 @@ const StyledButton = styled.button`
   display: inline-flex;
   align-items: center;
   display: inline-block;
+  white-space: nowrap;
 
   &:hover {
     background-color: ${({ theme }) => theme.secondaryColor};

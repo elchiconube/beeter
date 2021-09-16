@@ -1,8 +1,23 @@
 {
   "auth": {
+    "forgot-password": {
+      "form": {
+        "email": "Email",
+        "email-placeholder": "Write your email",
+        "submit": "Remember password"
+      },
+      "title": "Recover password"
+    },
     "sign-in": {
       "alternative": "Not a member? {link}",
       "alternative-link": "Sign up now",
+      "form": {
+        "email": "Email",
+        "email-placeholder": "Write your email",
+        "password": "Password",
+        "remember": "Remember me",
+        "submit": "Sign in"
+      },
       "seo-title": "Welcome to Beeter! Sign in and start sharing your ideas",
       "title": "Sign in to Beeter"
     },
@@ -10,7 +25,18 @@
       "alternative": "Already a member? {link}",
       "alternative-link": "Sign in",
       "seo-title": "Welcome to Beeter! Sign up and start sharing your ideas",
-      "title": "Sign up to Beeter"
+      "title": "Sign up to Beeter",
+      "form": {
+        "fullname": "Full name",
+        "fullname-placeholder": "Write your full name",
+        "id": "DNI, NIF or NIE",
+        "id-placeholder": "Write your DNI, NIF or NIE",
+        "email": "Email",
+        "email-placeholder": "Write your email",
+        "password": "Choose your password",
+        "conditions": "By clicking “Create account” I agree to {terms} and {privacy}.",
+        "submit": "Create account"
+      }
     }
   },
   "global": {
@@ -22,6 +48,8 @@
     "home": "Home",
     "ideas": "Ideas",
     "sign-in": "Sign in",
-    "sign-up": "Sign up"
+    "sign-up": "Sign up",
+    "terms": "Terms of use",
+    "privacy": "Policy of privacy"
   }
 }

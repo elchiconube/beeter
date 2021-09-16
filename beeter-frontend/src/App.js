@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { ThemeProvider } from "styled-components";
-import { Router } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import { createBrowserHistory } from "history";
 import { useDispatch, useSelector } from "react-redux";
 import { IntlProvider } from "react-intl";
@@ -24,12 +24,6 @@ const App = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [dispatch]);
 
-  const routes = (
-    <Router history={history}>
-      <Routes />
-    </Router>
-  );
-
   return (
     <IntlProvider
       locale={language}
@@ -38,7 +32,9 @@ const App = () => {
     >
       <ThemeProvider theme={themeMode}>
         <GlobalStyles />
-        {routes}
+        <Router>
+          <Routes />
+        </Router>
       </ThemeProvider>
     </IntlProvider>
   );

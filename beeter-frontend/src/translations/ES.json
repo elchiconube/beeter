@@ -1,8 +1,23 @@
 {
   "auth": {
+    "forgot-password": {
+      "form": {
+        "email": "Email",
+        "email-placeholder": "Escribe tu correo electrónico",
+        "submit": "Recuperar contraseña"
+      },
+      "title": "Recuperar contraseña"
+    },
     "sign-in": {
       "alternative": "No tienes cuenta? {link}",
       "alternative-link": "Regístrate ahora",
+      "form": {
+        "email": "Correo electrónico",
+        "email-placeholder": "Escribe tu correo electrónico",
+        "password": "Contraseña",
+        "remember": "Recordarme",
+        "submit": "Iniciar sesión"
+      },
       "seo-title": "Bienvenido a Beeter! Inicia sesión y comparte tus ideas",
       "title": "Iniciar sesión en Beeter"
     },
@@ -10,7 +25,18 @@
       "alternative": "Ya estás registrado? {link}",
       "alternative-link": "Inicia sesión",
       "seo-title": "Bienvenido a Beeter! Regístrate y comparte tus ideas",
-      "title": "Registrarse en Beeter"
+      "title": "Registrarse en Beeter",
+      "form": {
+        "fullname": "Nombre completo",
+        "fullname-placeholder": "Escribe tu nombre completo",
+        "id": "DNI, NIF o NIE",
+        "id-placeholder": "Escribe tu DNI, NIF o NIE",
+        "email": "Correo electrónico",
+        "email-placeholder": "Escribe tu correo electrónico",
+        "password": "Elige tu contraseña",
+        "conditions": "Haciendo click “Crear cuenta” estoy de acuerdo con los {terms} y la  {privacy}.",
+        "submit": "Crear cuenta"
+      }
     }
   },
   "global": {
@@ -22,6 +48,8 @@
     "home": "Inicio",
     "ideas": "Ideas",
     "sign-in": "Iniciar sesión",
-    "sign-up": "Registro"
+    "sign-up": "Registro",
+    "terms": "Términos de uso",
+    "privacy": "Política de privacidad"
   }
 }
