@@ -16,6 +16,14 @@ const StyledAside = styled.aside`
 const StyledForm = styled.form`
   margin-top: 24px;
 `;
+const StyledHr = styled.hr`
+  margin: 32px 0 20px;
+  display: block;
+  box-shadow: none;
+  appearance: none;
+  border-style: solid;
+  border-color: ${({ theme }) => theme.primaryColor};
+`;
 
 const AuthSignInContainer = () => {
   const [data, setData] = useState({
@@ -87,6 +95,15 @@ const AuthSignInContainer = () => {
         <Button>
           <FormattedMessage id="auth.sign-in.form.submit" />
         </Button>
+        <StyledHr />
+        <Link
+          to={PATHS.forgotPassword}
+          title={intl.formatMessage({
+            id: "auth.sign-in.forgot-password",
+          })}
+        >
+          <FormattedMessage id="auth.sign-in.forgot-password" />
+        </Link>
       </StyledForm>
     </div>
   );

@@ -23,3 +23,9 @@ export const ID_STATUS_CODE = {
   FAILED_VERIFICATION: "FAILED_VERIFICATION",
   NOT_EXISTING_ACCOUNT: "NOT_EXISTING_ACCOUNT",
 };
+
+export const MIN_ZOOM = 4;
+export const MAX_ZOOM = 12;
+export const DEFAULT_ZOOM = 8;
+export const DEFAULT_LNG = -3.741;
+export const DEFAULT_LAT = 40.432;

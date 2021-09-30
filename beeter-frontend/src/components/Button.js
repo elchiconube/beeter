@@ -3,7 +3,7 @@ import styled from "styled-components";
 const StyledButton = styled.button`
   background-color: ${({ theme }) => theme.primaryColor};
   border: 0;
-  padding: 16px 32px;
+  padding: ${({ small }) => (small ? "8px 12px" : "14px 28px")};
   border-radius: 5px;
   overflow: hidden;
   color: white;

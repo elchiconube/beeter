@@ -11,6 +11,7 @@
     "sign-in": {
       "alternative": "Not a member? {link}",
       "alternative-link": "Sign up now",
+      "forgot-password": "Forgot your password?",
       "form": {
         "email": "Email",
         "email-placeholder": "Write your email",

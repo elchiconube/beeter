@@ -51,22 +51,16 @@ const Navigation = () => {
               <FormattedMessage id="paths.ideas" />
             </Link>
           </li>
-          <li>
-            <Link to={PATHS.about}>
-              <FormattedMessage id="paths.about" />
-            </Link>
-          </li>
         </StyledList>
         <StyledList>
           <li>
             <Link to={PATHS.signIn}>
-              {" "}
               <FormattedMessage id="paths.sign-in" />
             </Link>
           </li>
           <li>
             <Link to={PATHS.signUp}>
-              <Button>
+              <Button small>
                 <FormattedMessage id="paths.sign-up" />
               </Button>
             </Link>

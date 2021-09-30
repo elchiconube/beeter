@@ -11,6 +11,7 @@
     "sign-in": {
       "alternative": "No tienes cuenta? {link}",
       "alternative-link": "Regístrate ahora",
+      "forgot-password": "Has olvidado tu contraseña?",
       "form": {
         "email": "Correo electrónico",
         "email-placeholder": "Escribe tu correo electrónico",
